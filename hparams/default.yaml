@@ -24,12 +24,12 @@ default:
     # train
     batch_size: 32
 
-logdir_path: '/logdir'
+logdir_path: '/home/user4/one-to-one/logdir'
 
 train:
     # path
-    data_path: 'datasets/guo/*.wav'
-    p_path: 'datasets/wang/'
+    data_path: '/home/user4/one-to-one/datasets/guo/*.wav'
+    p_path: '/home/user4/one-to-one/datasets/wang/'
 
     # model
     hidden_units: 256  # alias: E
@@ -55,15 +55,15 @@ train:
 
 test:
     # path
-    data_path: 'datasets/guo/*.wav'
-    p_path: 'datasets/wang/'
+    data_path: '/home/user4/one-to-one/datasets/guo/*.wav'
+    p_path: '/home/user4/one-to-one/datasets/wang/'
 
     # test
     batch_size: 32
 
 convert:
     # path
-    data_path: 'datasets/guo/*.wav'
+    data_path: '/home/user4/one-to-one/datasets/guo/*.wav'
 
     # convert
     one_full_wav: False
